@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <h1>Verificação de Nacionalidade</h1>
+    Qual Pais Vc mora? <input type="text" id="txtnan">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar(){
+            var text = document.querySelector('input#txtnan')
+            var res = document.querySelector('div#res')
+            if(text.value == 'Brasil'){
+             res.innerHTML=`vc mora em ${text.value} entao e brasileiro`
+             }
+            else{
+                res.innerHTML+='vc é estrangeiro'
+            }
+            
+
+            
+        }
+       
+    </script>
+</body>
+</html>
