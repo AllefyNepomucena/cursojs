@@ -21,7 +21,7 @@ function verificar(){
         img.setAttribute('src', 'jovemmenino.png')
       }
       else if (idade < 50){
-        
+        img.setAttribute('src','adultohomem.png')
       }
        else{
          img.setAttribute('src','idosohomem.png')
@@ -29,7 +29,7 @@ function verificar(){
       }
       
       else if(fsex[1].checked)
-      genero = " mulher"
+      genero = " Mulher"
       if (idade >=0 && idade < 10){
         img.setAttribute('src','bbmenina.png')
       }
@@ -37,7 +37,7 @@ function verificar(){
         img.setAttribute('src', 'jovemmenina.png')
       }
       else if (idade < 50){
-       // adulto
+       img.setAttribute('src', 'adultomulher.png')
       }
        else{
           img.setAttribute('src','idosamenina.png')
