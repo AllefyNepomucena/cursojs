@@ -9,5 +9,5 @@ let pos = num.indexOf(8)
 if (pos == -1 ){
     console.log(`o valor não foi encontrado`)
 }else{
-    console.log(`ò valor esta na posicao ${pos}`)
+    console.log(`o valor esta na posicao ${pos}`)
 }
